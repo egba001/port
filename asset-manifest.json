@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/port/static/css/main.deb5c223.css",
+    "main.js": "/port/static/js/main.01e76b43.js",
+    "static/media/ecommerce.png": "/port/static/media/ecommerce.c48d952547659558fa5a.png",
+    "static/media/Tech.png": "/port/static/media/Tech.534862fb58adf6520d14.png",
+    "static/media/hero-dark.jpg": "/port/static/media/hero-dark.37f2556d620821979e99.jpg",
+    "static/media/hero-light.jpg": "/port/static/media/hero-light.78b77836d8aee4d7d3cb.jpg",
+    "static/media/Camping.png": "/port/static/media/Camping.14309040be9c9bd1cf08.png",
+    "service-worker.js": "/port/service-worker.js",
+    "static/media/GH.svg": "/port/static/media/GH.b9e9a9aa6f05e9dfe5dcb8991bda3e4d.svg",
+    "static/media/logo.svg": "/port/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/port/index.html",
+    "main.deb5c223.css.map": "/port/static/css/main.deb5c223.css.map",
+    "main.01e76b43.js.map": "/port/static/js/main.01e76b43.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.deb5c223.css",
+    "static/js/main.01e76b43.js"
+  ]
+}
