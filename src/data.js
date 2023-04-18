@@ -2,7 +2,9 @@
 import { Icon } from "@iconify/react";
 
 // Projects Images (add your images to the images directory and import below)
-import Logo from "./images/logo.svg";
+import Camping from "./images/Camping.png";
+import Commerce from "./images/ecommerce.png";
+import Tech from "./images/Tech.png";
 
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
@@ -15,7 +17,7 @@ export { HeroDark as Dark };
  **************************************************************
   Add your GitHub username (string - "YourUsername") below.
 */
-export const githubUsername = "Your GitHub username here";
+export const githubUsername = "egba001";
 
 // Blog link icon - https://icon-sets.iconify.design/
 export const Blog = <Icon icon="ph:link-bold" />;
@@ -25,7 +27,7 @@ export const Blog = <Icon icon="ph:link-bold" />;
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, React Bootstrap, Redux, and the GitHub REST API.";
+  " I've gained hands-on experience with modern frontend technologies such as HTML5, CSS3, JavaScript, and React. I'm constantly learning and refining my skills to ensure that I'm up-to-date with the latest trends and best practices in frontend development. I'm excited to be part of a team where I can learn from experienced developers and contribute to meaningful projects. I'm always eager to take on new challenges and opportunities to grow as a developer.";
 
 /* Skills
  ************************************************************** 
@@ -58,14 +60,9 @@ export const skillData = [
     name: "React",
   },
   {
-    id: 6,
-    skill: <Icon icon="file-icons:styledcomponents" className="display-4" />,
-    name: "Styled Components",
-  },
-  {
     id: 7,
-    skill: <Icon icon="akar-icons:redux-fill" className="display-4" />,
-    name: "Redux",
+    skill: <Icon icon="akar-icons:tailwind" className="display-4" />,
+    name: "TailwindCSS",
   },
   {
     id: 8,
@@ -80,20 +77,28 @@ export const skillData = [
 ];
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
-export const resume = null;
+export const resume = 'https://docs.google.com/document/d/1LbIvc8M-CmP6e2x_lPW9nWTYUgZR8SBw-S_7ycS6xJY/edit?usp=sharing';
 
 /* Projects
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["example-1", "example-2", "example-3"];
+export const filteredProjects = ["e-commerce", "camping_website", "Tech1m-group3-project"];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 4-5)
 export const projectCardImages = [
   {
-    name: "example-1",
-    image: Logo,
+    name: "e-commerce",
+    image: Commerce,
   },
+  {
+    name: "camping_website",
+    image: Camping,
+  },
+  {
+    name: "Tech1m-group3-project",
+    image: Tech,
+  }
 ];
 
 /* Contact Info
@@ -101,4 +106,4 @@ export const projectCardImages = [
   Add your formspree endpoint below.
   https://formspree.io/
 */
-export const formspreeUrl = "https://formspree.io/f/YourEndpoint";
+export const formspreeUrl = "https://formspree.io/f/mjvdjboa";
