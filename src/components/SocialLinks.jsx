@@ -30,6 +30,13 @@ export default function SocialLinks() {
           {Blog}
         </a>
       )}
+      <a
+        href='https://linkedin.com/in/egba-nnaemeka-2192b7235/'
+        aria-label="Check out my GitHub profile."
+        className="link-icons"
+      >
+        <Icon icon="icomoon-free:linkedin" />
+      </a>
     </StyledSocialLinks>
   );
 }
